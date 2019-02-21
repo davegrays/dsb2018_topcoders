@@ -6,7 +6,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
 
 from keras.preprocessing.image import img_to_array, load_img
 
-from keras_applications.imagenet_utils import preprocess_input
+from keras.applications.imagenet_utils import preprocess_input
 
 from models.model_factory import make_model
 
