@@ -2,8 +2,8 @@ from keras import backend as K
 from keras.models import Model
 from keras.layers import Input, BatchNormalization, Conv2D, MaxPooling2D, AveragePooling2D, ZeroPadding2D, concatenate, Concatenate, UpSampling2D, Activation
 from keras.losses import categorical_crossentropy
-from keras.applications.inception_resnet_v2 import InceptionResNetV2, inception_resnet_block, conv2d_bn
-from keras.applications.densenet import DenseNet121, dense_block, transition_block
+from keras_applications.inception_resnet_v2 import InceptionResNetV2, inception_resnet_block, conv2d_bn
+from keras_applications.densenet import DenseNet121, dense_block, transition_block
 
 bn_axis = 3
 channel_axis = bn_axis

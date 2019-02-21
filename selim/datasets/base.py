@@ -6,7 +6,7 @@ from abc import abstractmethod
 
 import cv2
 import numpy as np
-from keras.applications import imagenet_utils
+from keras_applications import imagenet_utils
 from keras.preprocessing.image import Iterator, load_img, img_to_array
 
 from params import args
